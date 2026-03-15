@@ -58,7 +58,7 @@ What percentage of youth experiencing homelessness previously spent time in the 
 ## Analysis Plan
 
 ### 1. Foster Care Exits vs Youth Homelessness
-Examines whether states with higher numbers of youth aging out of foster care also show higher youth homelessness rates.
+Examines national trends in youth aging out of foster care and youth homelessness to explore whether increases in youth aging out correspond with increases in youth homelessness. 
 
 ### 2. Support Services and Housing Outcomes
 Evaluates whether youth with access to transition programs experience greater housing stability.
