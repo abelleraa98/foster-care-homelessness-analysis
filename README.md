@@ -36,8 +36,10 @@ What percentage of youth experiencing homelessness previously spent time in the 
 
 ## Data Sources
 
-- National Youth in Transition Database (NYTD)
-- Adoption and Foster Care Analysis and Reporting System (AFCARS)
+- U.S. Department of Health & Human Services (HHS) - Administration for Children & Families
+  Child Welfare Outcomes Data Site
+- Office of Policy Development and Research (PD&R) - Annual Homelessness Assessment Report
+  PIT Estimates of Homelessness in the U.S.
 - U.S. Department of Housing and Urban Development (HUD) Homelessness Data
 - U.S. Census and labor statistics data
 
