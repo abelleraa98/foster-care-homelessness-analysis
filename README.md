@@ -1,5 +1,11 @@
 </> Markdown
 
+## Author
+Arshalisha Abellera
+Google Data Analytics Certificate - Capstone Project
+
+GitHub: https://github.com/abelleraa98
+
 # Youth Aging Out of Foster Care and the Risk of Homelessness: A Data Analysis
 
 ## Project Overview
