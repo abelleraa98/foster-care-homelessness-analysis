@@ -78,7 +78,7 @@ Data sources:
 This analysis evaluates housing stability among youth who have transitioned out of foster care. Housing stability is measured using the percentage of youth reporting homelessness within 2022-2024.
 
 Variables analyzed:
--Homeless Risk
+- Homeless Risk
 
 Data source:
 - National Youth in Transition Database (NYTD) Cohort Reports
