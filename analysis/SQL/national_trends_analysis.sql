@@ -16,8 +16,11 @@ ORDER BY Year;
 SELECT
     Year,
     [Youth Homeless 18-24],
-    [Youth Homeless 18-24]
-        - LAG([Youth Homeless 18-24]) OVER (ORDER BY Year) AS Homeless_Change
+    coalesce (
+        [Youth Homeless 18-24]
+            - LAG([Youth Homeless 18-24]) OVER (ORDER BY Year),
+            0
+    ) AS Homeless_Change
 FROM national_trends
 ORDER BY Year;
 
@@ -26,8 +29,11 @@ ORDER BY Year;
 SELECT
     Year,
     [Youth Aging Out],
-    [Youth Aging Out]
-        - LAG([Youth Aging Out]) OVER (ORDER BY Year) AS Aging_Out_Change
+    coalesce (
+		[Youth Aging Out]
+			- LAG([Youth Aging Out]) OVER (ORDER BY Year),
+			0
+	) AS Aging_Out_Change
 FROM national_trends
 ORDER BY Year;
 
@@ -48,8 +54,8 @@ SELECT
     Cohort,
     [Educational Attainment],
     [Employment Rate],
-    [Homeless Risk],
-    [Health Coverage Access]
+    [Homelessness Risk],
+    [Health Coverage]
 FROM youth_outcomes;
 
 
@@ -57,17 +63,17 @@ FROM youth_outcomes;
 SELECT
     AVG([Educational Attainment]) AS Avg_Educational_Attainment,
     AVG([Employment Rate]) AS Avg_Employment_Rate,
-    AVG([Homeless Risk]) AS Avg_Homeless_Risk,
-    AVG([Health Coverage Access]) AS Avg_Health_Coverage_Access
+    AVG([Homelessness Risk]) AS Avg_Homelessness_Risk,
+    AVG([Health Coverage]) AS Avg_Health_Coverage
 FROM youth_outcomes;
 
 
 -- 7. Show cohorts ordered by homelessness risk
 SELECT
     Cohort,
-    [Homeless Risk],
+    [Homelessness Risk],
     [Employment Rate],
     [Educational Attainment],
-    [Health Coverage Access]
+    [Health Coverage]
 FROM youth_outcomes
-ORDER BY [Homeless Risk] DESC;
+ORDER BY [Homelessness Risk] DESC;
