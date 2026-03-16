@@ -36,13 +36,15 @@ What percentage of youth experiencing homelessness previously spent time in the 
 
 ## Data Sources
 
+- U.S. Department of Housing and Urban Development (HUD)
+  Office of Policy Development and Research
+  Point-in-Time Estimates of Homelessness
+- U.S. Department of Health and Human Services (HHS)
+  Administration for Children and Families (ACF)
+  Child Welfare Outcomes Data - Exits to Emancipation
 - National Youth in Transition Database (NYTD)
-- U.S. Department of Health & Human Services (HHS) - Administration for Children & Families
-  Child Welfare Outcomes Data Site
-- Office of Policy Development and Research (PD&R) - Annual Homelessness Assessment Report
-  PIT Estimates of Homelessness in the U.S.
-- U.S. Department of Housing and Urban Development (HUD) Homelessness Data
-- U.S. Census and labor statistics data
+  U.S. Department of Health and Human Services
+  Cohort Outcome Reports
 
 ---
 
