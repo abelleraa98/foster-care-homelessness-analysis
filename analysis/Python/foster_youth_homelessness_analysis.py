@@ -1,4 +1,10 @@
-<\> Bash
+<\> Python
+
+"""
+Foster Care and Youth Homelessness Analysis
+
+This script analyzes national trends in youth aging out of foster care and youth homelessness, and generates visualizations for the project. Data sources include ACF foster care outcomes and HUD homelessness data.
+"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
