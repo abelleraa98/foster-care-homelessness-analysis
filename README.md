@@ -1,5 +1,3 @@
-</> Markdown
-
 # Youth Aging Out of Foster Care and the Risk of Homelessness: A Data Analysis
 
 ---
