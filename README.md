@@ -118,7 +118,7 @@ Data source:
 
 ---
 
-## Expected Visualizations 
+## Key Visualizations 
 
 The analysis will include visualizations highlighting trends and outcomes related to youth aging out of foster care and youth homelessness. 
 
